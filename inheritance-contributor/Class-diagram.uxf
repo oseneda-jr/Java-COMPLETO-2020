@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<diagram program="umlet" version="14.3.0">
+  <zoom_level>10</zoom_level>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>350</x>
+      <y>120</y>
+      <w>270</w>
+      <h>90</h>
+    </coordinates>
+    <panel_attributes>/Contributor/
+--
+-name: String
+-annualIncome: double
+--
+/+taxCalc(): Double/</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>270</x>
+      <y>260</y>
+      <w>200</w>
+      <h>70</h>
+    </coordinates>
+    <panel_attributes>Individual
+--
+-healthExpenses: double
+--</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>500</x>
+      <y>260</y>
+      <w>200</w>
+      <h>70</h>
+    </coordinates>
+    <panel_attributes>Company
+--
+-numEmployee: int
+--</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>380</x>
+      <y>200</y>
+      <w>70</w>
+      <h>80</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;-</panel_attributes>
+    <additional_attributes>50.0;10.0;10.0;60.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>530</x>
+      <y>200</y>
+      <w>70</w>
+      <h>80</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;-</panel_attributes>
+    <additional_attributes>10.0;10.0;50.0;60.0</additional_attributes>
+  </element>
+</diagram>
